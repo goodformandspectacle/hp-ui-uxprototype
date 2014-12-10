@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="skeleton.css">
+	<link rel="stylesheet" type="text/css" href="walkthrough.css">
+
+<!-- handwritten font -->
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>	
+<!-- Noto -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,greek-ext,devanagari,greek,vietnamese,latin-ext,cyrillic" />	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website"/>
+	
+	<title>Welcome to Historypin</title>
+	
+</head>
+<body>
+<div class="container">
+
+<!-- Logged In header -->
+	<div class="row spaced topnav">
+		<div class="three columns">
+			<a href="start.html"><img src="https://www.historypin.org/resources/images/hp_logo.png" width="150" alt="logo" /></a>		
+		</div>
+		<div class="seven columns">
+			<nav>
+				<a class="transparent">Projects</a>
+				<a class="transparent">People</a>
+				<a class="transparent">Pins</a>
+				<a class="special">Add a Pin</a>
+			</nav>
+		</div>
+		<div class="six columns">
+			<nav class="user">
+				<a>{username}</a>
+				<a href="start.html">Log Out</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+
+		<div class="row">
+			<div class="sixteen columns">
+				<h1>Hi, {username}.</h1>
+				<p class="lead">OK! You've created your account. Welcome.</p>
+			</div>
+		</div>
+		
+<!-- content block about whichever page/content/pin the person was looking at when they decided to sign up -->
+
+		<div class="row">		
+			<div class="sixteen columns callout">
+				<p>Before you created your account, you were looking at <strong>the {Project} project</strong>. Want to <a>go back over there now</a>?</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="ten columns">
+				<h2>Add Your First Pin?</h2>
+				<p class="lead">A pin is a photo, video or audio file added to the Historypin map. You can give it a title, description, and keywords, then ask your friends or other Historypin folks to help you describe it.</p>
+				<p class="lead">We think a family photo is a great first pin. If you have a family photo close by, why not <strong><a href="add-first-pin.html">upload it now</a></strong>?</p>
+			</div>
+			<div class="one columns">&nbsp;</div>
+			<div class="five columns">
+				<h4>Teach Historypin about you</h4>
+				<form>
+					<label for="birthplace">Where were you born?</label>
+					<input type="text" id="birthplace" />
+					<label for="birthdate">When were you born?</label>
+					<select>
+						<option selected>Select a year</option>
+						<option>1960</option>
+						<option>1959</option>
+						<option>etc...</option>
+					</select>
+					<input type="checkbox" /> Make this private?<br /><br />
+					<button>SAVE</button> &nbsp;<small><a>Why are we asking for this</a>?</small>
+				</form>
+			</div>
+		</div>
+	
+	</div>
+
+<!-- Footer -->
+	
+	<div class="row footer spaced">
+
+		<div class="ten columns transparent">
+			<nav>
+				<a>Blog</a>
+				<a>About Historypin</a>
+				<a>Contact Us</a>
+				<a>Need Help?</a>
+				<a>Support the Project</a>
+				<br clear="all" />
+				<small>
+					<a>Terms of Use</a>
+					<a>Privacy Policy</a>
+					<a>Cookies</a>
+				</small>
+			</nav>
+			<br clear="all" />
+			<a href="http://shiftdesign.org.uk" class="shift">&copy; SHIFT</a>
+		</div>
+		<div class="six columns communities transparent">
+			<h4>Libraries, Archives, Museums</h4>
+			<p>Lots of organizations use Historypin to connect with their communities. Find out more about <a>using Historypin as an organization</a>.</p>
+		</div>
+		
+	
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="skeleton.css">
+	<link rel="stylesheet" type="text/css" href="walkthrough.css">
+
+<!-- handwritten font -->
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>	
+<!-- Noto -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,greek-ext,devanagari,greek,vietnamese,latin-ext,cyrillic" />	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website"/>
+	
+	<title>Welcome to Historypin</title>
+	
+</head>
+<body>
+<div class="container">
+
+<!-- Logged In header -->
+	<div class="row spaced topnav">
+		<div class="three columns">
+			<a href="start.html"><img src="https://www.historypin.org/resources/images/hp_logo.png" width="150" alt="logo" /></a>		
+		</div>
+		<div class="seven columns">
+			<nav>
+				<a class="transparent">Projects</a>
+				<a class="transparent">People</a>
+				<a class="transparent">Pins</a>
+				<a class="special">Add a Pin</a>
+			</nav>
+		</div>
+		<div class="six columns">
+			<nav class="user">
+				<a>{username}</a>
+				<a href="start.html">Log Out</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+
+		<div class="row">
+			<div class="sixteen columns">
+				<h1>Hi, {username}.</h1>
+				<p class="lead">You could start your own history project, if you like.</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="eleven columns placeholder">Add Your First Pin</div>
+			<div class="five columns">
+				<h4>Teach Historypin about You</h4>
+				<form>
+					<label for="birthplace">Where were you born?</label>
+					<input type="text" id="birthplace" />
+					<label for="birthdate">What year were you born?</label>
+					<select>
+						<option selected>Select a year</option>
+						<option>1960</option>
+						<option>1959</option>
+						<option>etc...</option>
+					</select>
+					<input type="checkbox" /> Make this private?<br /><br />
+					<button>SAVE</button> &nbsp;<small><a>Why are we asking for this</a>?</small>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="sixteen columns">
+				<h2>Activity</h2>
+				<p>There's no activity on your account yet, but don't worry. As soon as there is, we'll show it on your profile page. <a href="add-a-pin-logged-in.html">Add another pin</a>?</p>
+				<p>There's no activity on your account yet, but don't worry. As soon as there is, we'll show it on your profile page. <a href="add-project.html">Start a new project</a>?</p>
+				<p>There's no activity on your account yet, but don't worry. As soon as there is, we'll show it on your profile page. <a href="people.html">Follow someone new</a>?</p>
+			</div>
+		</div>		
+	
+	</div>
+
+<!-- Footer -->
+	
+	<div class="row footer spaced">
+
+		<div class="ten columns transparent">
+			<nav>
+				<a>Blog</a>
+				<a>About Historypin</a>
+				<a>Contact Us</a>
+				<a>Need Help?</a>
+				<a>Support the Project</a>
+				<br clear="all" />
+				<small>
+					<a>Terms of Use</a>
+					<a>Privacy Policy</a>
+					<a>Cookies</a>
+				</small>
+			</nav>
+			<br clear="all" />
+			<a href="http://shiftdesign.org.uk" class="shift">&copy; SHIFT</a>
+		</div>
+		<div class="six columns communities transparent">
+			<h4>Libraries, Archives, Museums</h4>
+			<p>Lots of organizations use Historypin to connect with their communities. Find out more about <a>using Historypin as an organization</a>.</p>
+		</div>
+		
+	
+	</div>
+
+</div>
+</body>
+</html>

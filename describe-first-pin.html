@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="base.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="skeleton.css">
+	<link rel="stylesheet" type="text/css" href="walkthrough.css">
+
+<!-- handwritten font -->
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>	
+<!-- Noto -->
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic&subset=latin,cyrillic-ext,greek-ext,devanagari,greek,vietnamese,latin-ext,cyrillic" />	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:type" content="website"/>
+	
+	<title>Add your first pin to Historypin</title>
+	
+</head>
+<body>
+<div class="container">
+
+<!-- Logged In header -->
+	<div class="row spaced topnav">
+		<div class="three columns">
+			<a href="start.html"><img src="https://www.historypin.org/resources/images/hp_logo.png" width="150" alt="logo" /></a>		
+		</div>
+		<div class="seven columns">
+			<nav>
+				<a class="transparent">Projects</a>
+				<a class="transparent">People</a>
+				<a class="transparent">Pins</a>
+				<a class="special">Add a Pin</a>
+			</nav>
+		</div>
+		<div class="six columns">
+			<nav class="user">
+				<a>{username}</a>
+				<a href="start.html">Log Out</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+
+		<div class="row">
+			<div class="sixteen columns">
+				<h1>Add Your First Pin</h1>
+				<p class="lead">Please tell Historypin as much as you can about this {photo/video/audio}... The more the better!</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="three columns">
+				<h2 class="grey">1. Upload</h2>
+			</div>
+			<div class="twelve offset-by-one columns">
+				<h2>2. Describe</h2>
+			</div>			
+		</div>
+		<form>
+			<div class="row clearfix">
+				<div class="three columns">
+					<img src="https://www.historypin.org/services/thumb/phid/281373/dim/2000x440/quality/80/" width="100%" />
+					<p class="success">Success!</p>
+				</div>
+				<div class="thirteen columns">
+					<div class="row">
+						<div class="seven offset-by-one columns wideform">
+							<label for="title">Title (*required)</label>
+							<input type="text" id="title" />
+							<label for="">What's the story here, dude??</label>
+							<textarea id="caption"></textarea>
+							<label for="who">Are there any people in it?</label>
+							<input type="text" id="who" />
+							<label for="tags">Can you name some things in the photo? Add some tags?</label>
+							<input type="text" id="tags" />
+							<label for="where">Where is it?</label>
+						<!-- should be auto-complete location -->
+							<input type="text" id="where" />
+							<label for="when">What year was this taken? (*required)</label>
+						<!-- taken, filmed, recorded -->
+							<input type="text" id="when" /> Or, enter a <a>precise date</a>
+						</div>
+						<div class="four columns">
+							<label for="license">Set the license (*required)</label>
+							<p>
+								<input type="radio" checked /> License 1<br />
+								<input type="radio" /> License 2<br />
+								<input type="radio" /> License 3<br />
+								<input type="radio" /> License 4<br />
+							</p>
+							<label for="attribution">Attribution Line</label>
+							<p><input id="attribution" type="text" /></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="three columns">&nbsp;</div>
+				<div class="three offset-by-one columns"><button>SAVE YOUR FIRST PIN</button> <br />
+					<a href="your-page-some-pins.html" class="clicky">Clicky</a>
+				</div>
+				<div class="six columns">
+					Pins can be organized into Projects on Historypin. <br />
+					Would you like to start your first project with this pin? <strong>&#8674;</strong>
+				</div>
+				<div class="three columns right"><button>START YOUR FIRST PROJECT</button></div>
+			</div>		
+		</form>
+	</div>
+
+<!-- Footer -->
+	
+	<div class="row footer spaced">
+
+		<div class="ten columns transparent">
+			<nav>
+				<a>Blog</a>
+				<a>About Historypin</a>
+				<a>Contact Us</a>
+				<a>Need Help?</a>
+				<a>Support the Project</a>
+				<br clear="all" />
+				<small>
+					<a>Terms of Use</a>
+					<a>Privacy Policy</a>
+					<a>Cookies</a>
+				</small>
+			</nav>
+			<br clear="all" />
+			<a href="http://shiftdesign.org.uk" class="shift">&copy; SHIFT</a>
+		</div>
+		<div class="six columns communities transparent">
+			<h4>Libraries, Archives, Museums</h4>
+			<p>Lots of organizations use Historypin to connect with their communities. Find out more about <a>using Historypin as an organization</a>.</p>
+		</div>
+		
+	
+	</div>
+
+</div>
+</body>
+</html>
