@@ -15,7 +15,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:type" content="website"/>
 	
-	<title>Add your first pin to Historypin</title>
+	<title>Hi, {username}</title>
 	
 </head>
 <body>
@@ -36,7 +36,7 @@
 		</div>
 		<div class="six columns">
 			<nav class="user">
-				<a href="your-page-some-pins.html">{username}</a>
+				<a class="your-page-some-pins.html">{username}</a>
 				<a href="start.html">Log Out</a>
 			</nav>
 		</div>
@@ -45,28 +45,64 @@
 	<div class="content">
 
 		<div class="row">
-			<div class="sixteen columns">
-				<h1>Add Your First Pin</h1>
-				<p class="lead">We'd suggest you start with an old family photo...</p>
+			<div class="twelve columns">
+				<h1>{username}</h1>
+				<p class="lead"><a>{hometown}</a>, <a>{country}</a> &bull; Joined 3 minutes ago &bull; 1 pin</p>
+			</div>
+			<div class="four columns">
+				<ul class="square">
+					<li><a>Your account settings</a></li>
+					<li><a>Edit your profile</a></li>
+				</ul>
 			</div>
 		</div>
+		
+		<div class="row">
+			<div class="sixteen columns">
+				<h2>Activity</h2>
+				<p class="subhead">We'll show you who's doing what to pins and projects you're interested in.</p>
+				<ul class="activity">
+					<li>You uploaded <a>your first pin</a>. Yeah! <small>10 days ago</small></li>
+					<li>You created your account. Hi! <small>2 weeks ago</small></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="sixteen columns"><h2>1 pin</h2></div>
+		</div>
+		<div class="row">
+			<div class="two columns pin-placeholder"><a href="add-pin.html" class="special plus">+</a></div>
+			<div class="two columns pin-placeholder">Pin</div>
+		</div>				
+
+		
+		<div class="row">
+			<div class="sixteen columns">
+				<h2>1 project</h2>
+				<p>Your projects are about <a>ice cream</a>, <a>ponies</a> and <a>sparkles</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="eight columns placeholder">Project 1</div>
+			<div class="eight columns placeholder">Project 2</div>
+		</div>
+		<div class="row">
+			<div class="eight columns placeholder">Project 3</div>
+			<div class="eight columns">&nbsp;</div>
+		</div>	
 
 		<div class="row">
-			<div class="twelve columns">
-				<h2>1. Upload</h2>
+			<div class="sixteen columns">
+				<h2>Map</h2>
+				<p><a>Paris</a>, <a>Nice</a>, <a>Milan</a></p>
 			</div>
-			<div class="four columns right">
-				<h2 class="grey">2. Describe</h2>			
-			</div>
-		</div>		
+		</div>
 		<div class="row">
-			<div class="sixteen columns upload">
-				<p>Drag & Drop your photo, video, or audio file here.</p>
-				<p><small>5MB maximum file size, please. Click to select a file.</small></p>
-				<a href="describe-first-pin.html" class="clicky">Clicky</a>
-			</div>
-		</div>		
-
+			<div class="sixteen columns placeholder">Map</div>
+		</div>	
+		
+		
 	</div>
 
 <!-- Footer -->
