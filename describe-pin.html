@@ -47,26 +47,67 @@
 		<div class="row">
 			<div class="sixteen columns">
 				<h1>Add a Pin</h1>
-				<p class="lead">You can add more than one pin at this step, if you like.</p>
+				<p class="lead">Don't be shy with your description. Tell us as much as you know!</p>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="twelve columns">
-				<h2>1. Upload</h2>
+			<div class="three columns">
+				<h2 class="grey">1. Upload</h2>
 			</div>
-			<div class="four columns right">
-				<h2 class="grey">2. Describe</h2>			
+			<div class="twelve offset-by-one columns">
+				<h2>2. Describe</h2>
+			</div>			
+		</div>
+		<form>
+			<div class="row clearfix">
+				<div class="three columns">
+					<img src="https://www.historypin.org/services/thumb/phid/281373/dim/2000x440/quality/80/" width="100%" />
+					<p class="success">Success!</p>
+				</div>
+				<div class="thirteen columns">
+					<div class="row">
+						<div class="seven offset-by-one columns wideform">
+							<label for="title">Title (*required)</label>
+							<input type="text" id="title" />
+							<label for="">What's the story?</label>
+							<textarea id="caption"></textarea>
+							<label for="who">Are there any people in it?</label>
+							<input type="text" id="who" />
+							<label for="tags">Can you name some things in the photo? Add some tags?</label>
+							<input type="text" id="tags" />
+							<label for="where">Where is it?</label>
+						<!-- should be auto-complete location -->
+							<input type="text" id="where" />
+							<label for="when">What year was this taken? (*required)</label>
+						<!-- taken, filmed, recorded -->
+							<input type="text" id="when" /> Or, enter a <a>precise date</a>
+						</div>
+						<div class="four columns">
+							<label for="license">Set the license (*required)</label>
+							<p>
+								<input type="radio" checked /> License 1<br />
+								<input type="radio" /> License 2<br />
+								<input type="radio" /> License 3<br />
+								<input type="radio" /> License 4<br />
+							</p>
+							<label for="attribution">Attribution Line</label>
+							<p><input id="attribution" type="text" /></p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>		
-		<div class="row">
-			<div class="sixteen columns upload">
-				<p>Drag & Drop your photo, video, or audio file here.</p>
-				<p><small>5MB maximum file size, please. Click to select a file.</small></p>
-				<a href="describe-pin.html" class="clicky">Clicky</a>
-			</div>
-		</div>		
-
+			<div class="row">
+				<div class="three columns">&nbsp;</div>
+				<div class="three offset-by-one columns"><button>SAVE YOUR PIN</button> <br />
+					<a href="your-page-some-pins.html" class="clicky">Clicky</a>
+				</div>
+				<div class="six columns">
+					Would you like to start a project with this pin? <strong>&#8674;</strong>
+				</div>
+				<div class="three columns right"><button>START A PROJECT</button></div>
+			</div>		
+		</form>
 	</div>
 
 <!-- Footer -->
