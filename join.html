@@ -73,26 +73,33 @@
 				<h1>Create an Account</h1>
 				<p class="lead">You need a Historypin account to add pins, create projects and interact with other projects. It's free!</p>
 			</div>
+	<form>
 		<div class="row">
-			<div class="twelve columns">
-				<form>
-					<label for="email">Your Email Address</label>
-					<input type="text" id="email" autofocus />
-					<label for="username">Choose a Username</label>
-					<input type="text" id="username" />
-					<label for="password">Choose a Password</label>
-					<input type="password" id="password" />
-					<label for="retype-password">Please confirm your Password</label>
-					<input type="password" id="retype-password" />	
-					<input type="checkbox" id="agree" unchecked /> Yes, I agree to the <a>Terms & Conditions</a> and <a>Privacy Policy</a>.
-					<p><br /><button>CREATE ACCOUNT</button> <a href="join-0-pins.html" class="clicky">Clicky</a></p>
-				</form>	
-				<p class="auth">Or, join using your <a class="facebook">Facebook</a>, <a class="twitter">Twitter</a> or <a class="google">Google+</a>, and we'll bring you back afterwards.</p>
+			<div class="four columns">
+				<label for="email">Your Email Address</label>
+				<input type="text" id="email" autofocus tabindex="1" />
+				<label for="password">Choose a Password</label>
+				<input type="password" id="password" tabindex="3" />
+			</div>
+			<div class="eight columns">
+				<label for="username">Choose a Username</label>
+				<input type="text" id="username" tabindex="2" />
+				<label for="retype-password">Please confirm your Password</label>
+				<input type="password" id="retype-password" tabindex="4" />	
 			</div>
 			<div class="four columns">
 				<p>Already have an account?<br /><strong><a href="login.html">Log in</a>.</strong></p>
 			</div>
+		</div>			
+		<div class="row">			
+			<div class="twelve columns">
+					<p><input type="checkbox" id="agree" unchecked tabindex="5" /> I'm part of an organisation or group using Historypin. <a href="join-org.html" class="clicky">Clicky</a></p>
+					<p><input type="checkbox" id="agree" unchecked tabindex="6" /> Yes, I agree to the <a>Terms & Conditions</a> and <a>Privacy Policy</a>.</p>
+					<p><br /><button tabindex="7">CREATE ACCOUNT</button> <a href="join-0-pins.html" class="clicky">Clicky</a></p>
+				<p class="auth">Or, join using your <a class="facebook">Facebook</a>, <a class="twitter">Twitter</a> or <a class="google">Google+</a>, and we'll bring you back afterwards.</p>
+			</div>
 		</div>
+	</form>	
 		
 	</div>
 <!-- Footer -->
