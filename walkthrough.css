@@ -1,15 +1,15 @@
-
+/*
 body, input, textarea, select, option { font-family: 'Architects Daughter', cursive; }
 
 body { font-family: 'Architects Daughter', cursive; font-size: 100% }
 h1, h2, h3, h4, h5, h6 { font-family: 'Architects Daughter', cursive; }
+*/
 
-/*
 body, input, textarea, select, option { font-family: 'Noto Sans', sans-serif; }
 
 body { font-family: 'Noto Sans', sans-serif; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans', sans-serif; }
-*/
+
 
 .topnav { border-bottom: 1px dotted #ddd;}
 .topnav nav { display: block; padding-top: 5px;}
