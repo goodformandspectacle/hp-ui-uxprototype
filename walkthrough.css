@@ -21,8 +21,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans', sans-serif; }
 
 .content { }
 a.special { color: #ee028e; }
-a.plus:link { font-size: 56px; font-weight: bold; text-decoration: none; line-height: 36px; }
+a.plus:link { font-size: 56px; font-weight: bold; text-decoration: none; line-height: 36px; color:#FFFF00; }
 a.plus:hover { font-size: 56px; font-weight: bold; text-decoration: none; line-height: 36px; color:#00FF00; }
+.editmode {background-color:#FFFF00;}
 .avatar { border-radius: 50%; background: #f8f8f8; text-align:center; width: 100px; height: 100px;	position: relative; }
 .avatar .plus { position: absolute;	top: 28px; left: 36px; }
 .avatar-small { border-radius: 50%; float:left; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background: #346bef; text-align:center; width: 50px; height: 50px;	}
